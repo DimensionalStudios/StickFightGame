@@ -1,0 +1,6 @@
+{
+global.yourname = get_string('What is your name?','Type in your name please.');
+global.yourgender = get_string('What is your gender?', 'male or female');
+global.yourage = get_string('How old are you?','age');
+show_message('Hello! ' + global.yourname + ' the ' + global.yourage + ' year old ' + global.yourgender);
+}
